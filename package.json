@@ -1,0 +1,29 @@
+{
+  "title": "To do list",
+  "name": "to-do-list",
+  "version": "0.0.1",
+  "description": "To do list with a mobile first approach",
+  "main": "index.js",
+  "author": "Ramkumar K R",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
+    "reactstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.22.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}
