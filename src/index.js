@@ -1,14 +1,5 @@
-var React = require('react');
-var ReactDom = require('react-dom');
-
-var Hello = React.createClass({
-  render: function(){
-    return(
-      <div>
-        Hello, world!
-      </div>
-    );
-  }
-});
-
-ReactDom.render(<Hello/>, document.getElementById('container'));
+// var React = require("react");
+var ReactDom = require("react-dom");
+var routes = require("./config/routes");
+require("offline-plugin/runtime").install();
+ReactDom.render(routes, document.getElementById("container"));
